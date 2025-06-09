@@ -2,7 +2,7 @@ import React from "react";
 import '@testing-library/jest-dom';  // Import obrigatório para matchers
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import axios from "axios";
-import App from "./App";
+import App from "../App";
 
 jest.mock("axios");
 
