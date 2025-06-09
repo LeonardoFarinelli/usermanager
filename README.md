@@ -88,7 +88,11 @@ Contribuições são bem-vindas! Para contribuir com o projeto:
 - Nomes de variáveis, funções e arquivos descritivos e consistentes.
 
 ## Testes Automatizados
-- Atualmente, o projeto ainda não possui testes automatizados implementados, mas o ambiente está preparado para futuras implementações utilizando frameworks como Jest para o frontend e backend.
+- O projeto conta com testes automatizados implementados tanto no backend quanto no frontend, utilizando Jest. No backend, o Supertest é usado junto ao Jest para testar as rotas da API, garantindo que endpoints como listagem, criação, edição e exclusão de usuários funcionem corretamente.
+
+No frontend, os testes cobrem componentes e funcionalidades, assegurando a estabilidade e qualidade da interface.
+
+Todo o ambiente está configurado para facilitar a execução e o desenvolvimento contínuo dos testes.
 
 ## Padrões de Projeto Aplicados
 - MVC (Model-View-Controller): No backend, o padrão MVC foi aplicado, separando claramente a lógica do modelo (Mongoose schemas), controle (funções dos controllers) e rotas (handlers das rotas Express).
